@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/contactUs-main.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <!--inserting the google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--inseting FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="./images/logo-placehohlder-wolfgang-hasselmann-HRzIhXlPU2E-unsplash.jpg"
+          alt=""
+        />
+        <a href="./index.html">Decor Co.</a>
+      </div>
+
+      <div>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT US</a></li>
+          <!--to create the dropdown-->
+          <li class="dropdown">
+            <a href="./our-projects.html">PROJECTS</a>
+            <div class="dropdown-cont">
+              <a href="./sampleproject.html">Project 1</a>
+              <a href="./sampleproject.html">Project 2</a>
+              <a href="./sampleproject.html">Project 3</a>
+              <a href="./sampleproject.html">Project 4</a>
+              <a href="./sampleproject.html">Project 5</a>
+              <a href="./sampleproject.html">Project 6</a>
+            </div>
+          </li>
+          <li><a href="./services.html">SERVICES</a></li>
+          <li><a href="./contact us.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="welcome-section">
+        <h1>Contact Us</h1>
+        <p class="contact-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          imperdiet porttitor sagittis.
+        </p>
+      </section>
+
+      <section class="form-sec">
+        <form>
+          <div id="name-phone">
+            <div>
+              <p>Name</p>
+              <input class="inputs" type="text" name="" id="" />
+            </div>
+            <div>
+              <p>Phone</p>
+              <input class="inputs" type="text" name="" id="" />
+            </div>
+          </div>
+          <div id="email">
+            <p>Email</p>
+            <input class="inputs" type="text" name="" id="" />
+          </div>
+          <div id="txt-area">
+            <p>Write Message</p>
+            <textarea name="" id="txt-box" rows="13"></textarea>
+          </div>
+          <div id="button-div">
+            <button id="button" type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+        <div id="address">
+          <div class="cont">
+            <i class="fa-sharp fa-solid fa-location-pin"></i>
+            <p>34 Street Name, City Name Here,<br />United States</p>
+          </div>
+          <div class="cont">
+            <i class="fa-solid fa-phone"></i>
+            <p>+1 242 4942 290</p>
+          </div>
+          <div class="cont">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@yourdomain.com</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p class="foot-ttl">Contact Info</p>
+        <p>Address:</p>
+        <p class="foot-txt">34 Street Name, City Name Here,</p>
+        <p>Telephone:</p>
+        <p class="foot-txt">+1 242 49 42 290</p>
+        <p>Email:</p>
+        <p class="foot-txt">info@yourdomain.com</p>
+      </div>
+      <div>
+        <p class="foot-ttl">Newsletter</p>
+        <p class="foot-txt">Stay update with our latest</p>
+        <div class="email">
+          <input
+            type="email"
+            name=""
+            id="email-input"
+            placeholder="Enter Email"
+          />
+          <button type="submit" id="submit-button">&#8594;</button>
+        </div>
+      </div>
+      <div class="foot-cont">
+        <p class="foot-ttl">Follow Us</p>
+        <p class="foot-txt">Let us be social</p>
+        <div class="img-cont">
+          <!--fontawesome logos-->
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!--the ourdated forward slash on void elements is due to the prettier text formater extension-->
