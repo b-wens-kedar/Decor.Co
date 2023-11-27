@@ -175,12 +175,13 @@ footer p {
   width: 350px;
   border: none;
 }
-o #submit-button {
+
+#submit-button {
   background-color: rgb(6, 146, 123);
   color: white;
   font-size: 25px;
   border: none;
-  height: 42px;
+  height: 40px;
   width: 45px;
 }
 
